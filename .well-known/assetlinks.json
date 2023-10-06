@@ -1,20 +1,10 @@
 
 [{
-  "relation": [ "delegate_permission/common.handle_all_urls" ],
-  "target":  { "namespace": "web", "site": "https://stackoverflow.com" }
-        },
-{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target" : { "namespace": "android_app", "package_name": "com.stackexchange.marvin",
-               "sha256_cert_fingerprints": [
-                 "5E:AA:76:D3:F9:6A:47:E0:55:74:7B:78:78:59:81:3B:30:45:B7:23:61:17:DF:FE:FD:E2:24:5E:F9:EE:9E:AE",
-                 "D0:00:97:1F:C4:25:35:F7:B5:80:3F:E8:6A:0C:31:16:7F:E3:17:25:5C:94:53:52:B5:F2:57:71:84:F2:B6:27"]
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "com.bricklet.com.au",
+      "package_name": "com.bricklet.com.au",
+      "sha256_cert_fingerprints":
+      ["F3:6D:C0:AC:65:06:79:F7:0C:6E:27:5F:A3:AD:D5:86:9E:D8:74:99:0C:33:07:94:7B:7B:5B:F8:44:4D:0F:EE", "48:C8:43:45:2C:D5:05:C4:E5:2A:7E:D7:CD:E0:63:A3:37:77:82:FE:01:5C:69:E6:43:AA:39:18:5E:25:AC:39"]
     }
-},
-{
-  "relation": ["lookalikes/allowlist"],
-  "target" : { "namespace": "web", "site": "https://stackoverflow.com"}
-},{
-  "relation": ["lookalikes/allowlist"],
-  "target" : { "namespace": "web", "site": "https://stackoverflow.co"}
 }]

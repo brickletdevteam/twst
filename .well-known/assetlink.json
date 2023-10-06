@@ -1,0 +1,20 @@
+
+[{
+  "relation": [ "delegate_permission/common.handle_all_urls" ],
+  "target":  { "namespace": "web", "site": "https://stackoverflow.com" }
+        },
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.stackexchange.marvin",
+               "sha256_cert_fingerprints": [
+                 "5E:AA:76:D3:F9:6A:47:E0:55:74:7B:78:78:59:81:3B:30:45:B7:23:61:17:DF:FE:FD:E2:24:5E:F9:EE:9E:AE",
+                 "D0:00:97:1F:C4:25:35:F7:B5:80:3F:E8:6A:0C:31:16:7F:E3:17:25:5C:94:53:52:B5:F2:57:71:84:F2:B6:27"]
+    }
+},
+{
+  "relation": ["lookalikes/allowlist"],
+  "target" : { "namespace": "web", "site": "https://stackoverflow.com"}
+},{
+  "relation": ["lookalikes/allowlist"],
+  "target" : { "namespace": "web", "site": "https://stackoverflow.co"}
+}]
